@@ -13,3 +13,7 @@
 • Animated CSS
 
 • wow.js
+
+## Host
+
+• Firebase
