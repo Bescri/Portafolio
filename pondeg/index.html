@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="css/animate.css">
+
+
+    <title>Pondeg</title>
+  </head>
+  <body>
+    <header>
+      <h2 class="pondg">Ponderador</h2>
+      </header>
+
+      <h6>Para utilizar el ponderador debes escribir a la izquierda el
+        puntaje obtenido en la prueba y a la derecha el porcentaje de ponderación que exige el programa de admisión.</h6>
+
+      <h6>En el caso de que sólo hayas elegido una u otra prueba (ciencias o historia) debes dejar en 0 la ponderación de la prueba no rendida.</h6>
+      <h6>Cuando hayas ya completado la información pincha el botón "Ponderar"</h6>
+
+
+            <form id="formulario">
+
+
+        <div class="fila">
+        <input type="number" id="lenguaje" placeholder="Lenguaje">
+        <input type="number" id="lenguaje1" placeholder="Porcentaje">
+      </div>
+
+      <div class="fila">
+        <input type="number" id="matematicas" placeholder="Matemáticas">
+        <input type="number" id="matematicas1" placeholder="Porcentaje">
+      </div>
+
+      <div class="fila">
+        <input type="number" id="ciencias" placeholder="Ciencias">
+        <input type="number" id="ciencias1"  placeholder="Porcentaje">
+
+      </div>
+
+      <div class="fila">
+      <input type="number" id="historia" placeholder="Historia">
+      <input type="number" id="historia1" placeholder="Porcentaje">
+    </div>
+
+    <div class="fila">
+    <input type="number" id="ranking" placeholder="Ranking">
+    <input type="number" id="ranking1" placeholder="Porcentaje">
+  </div>
+
+  <div class="fila">
+  <input type="number" id="nem" placeholder="NEM">
+  <input type="number" id="nem1" placeholder="Porcentaje">
+  </div>
+
+
+      <input type="submit" class="ponderar" value="Ponderar">
+
+      </form>
+
+
+    <h2 id="ponderado"></h2>
+    <center>
+    <div id="contacto">
+
+        <a href="https://github.com/Bescri" title="GitHub">
+        <h3>GitHub</h3></a>
+    </div>
+    </center>
+   <footer>
+     <h2><> with ❤️ by Bastián Escribano</h2>
+   </footer>
+
+    <script src="js/load.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" data-auto-replace-svg="nest"></script>
+    <script> new WOW().init(); </script>
+
+  </body>
+</html>

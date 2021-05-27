@@ -1,0 +1,108 @@
+@font-face{
+  font-family:Lato;
+  src:url(fonts/Lato.ttf);
+}
+
+*{
+  box-sizing: border-box;
+  font-family: Lato;
+  user-select: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  color: white;
+}
+
+body{
+ border: solid white;
+    border-width: 1px;
+    background: linear-gradient(90deg, #0f0f0f, #2d132c);
+
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 6px;
+
+
+}
+h2{
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  font-size: 1em;
+}
+
+h6{
+  font-size: 0.7em;
+}
+
+header{
+  font-size: 1.6em;
+  padding: 0.3vh 0.3vh;
+  opacity: 0.88;
+  }
+
+.pondg{
+  padding-bottom: 2vh;
+  border-bottom: solid white;
+}
+
+input{
+  text-align: center;
+  color: white;
+  width: 40%;
+  padding: 1vh;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  margin-left: 4vw;
+  margin-right: 4vw;
+  background: linear-gradient(10deg, #903749, #2d132c);
+  border: white solid;
+  border-width: 1px;
+  border-radius: 4px;
+  width: 32vw;
+  height: 6vh;
+    resize: none;
+}
+::placeholder{
+  font-weight: bolder;
+  font-size: 1.1em;
+  opacity: 1;
+}
+form{
+  border-top: solid white;
+  border-width: 3px;
+  display: flex;
+  margin-top: 3vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fila{
+  display: block;
+}
+
+
+.ponderar {
+  font-size: 1.1em;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background: linear-gradient(10deg, #903749, #2d132c);
+}
+
+footer{
+  border-radius: 3px;
+  bottom: 0;
+  font-size: 0.85em;
+  position: flex;
+  width: 100%;
+  opacity: 0.87;
+  background: linear-gradient(10deg, #903749, #2d132c);
+  }
+
+contacto{
+    display: flex;
+    text-align: center;
+    bottom: 1cm;
+}
