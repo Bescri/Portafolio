@@ -7,21 +7,26 @@ body{
   color:black;
 }
 
-.fa-sun{
+.fa-moon{
   padding-top: 5vh;
   font-size: 2em;
   padding-right: 15vw;
   padding-bottom: 2vh;
+  animation: 2.5s;
 }
 
-.fa-flag{
+.fa-language{
   font-size: 2em;
   padding-top: -2vh;
   margin-bottom: -1vh;
   padding-left: 15vw;
+  animation: 2.8s;
 }
 
-
+.fa-github{
+  font-size: 4vw;
+  padding-top: 5vh;
+}
 
 #horaUnix{
   display: flex;
@@ -30,9 +35,12 @@ body{
   text-align: center;
   font-size: 12vw;
   font-family: sans-serif;
-  margin-top: 8vh;
+  margin-top: 2vh;
 }
 
+#info{
+  margin-top: -13vh;
+}
 
 
 .darkMode{
@@ -52,7 +60,6 @@ body{
 
 #git{
   display: block;
-  font-size: 4em;
 }
 
 .dots-9 {
@@ -105,6 +112,7 @@ h2{
   width: 100%;
   text-align: center;
 }
+
   #row1{
     width: 100%;
     opacity: 0.5;
@@ -131,14 +139,18 @@ h2{
   }
 
 @media screen and (max-width: 800px){
-    h2{
-          font-size: 1.3em;
-          padding-top: 0vh;
-          margin-top: 0vh;
-          width: 80%;
-    }
+  
+  #horaUnix{
+    padding-top: 3vh;
+    padding-bottom: 13vh;
+  }
+  
+  
+  #info{
+    font-size: 7vw;
+  }
 
-      #row1{
+    #row1{
     width: 50%;
     opacity: 0.5;
     padding-top: 3vh;
@@ -147,8 +159,8 @@ h2{
   }
 
   #row1 h2{
-    padding-top: 0;
-    margin-left: -1.2vh;
+    margin-left: -1.3vh;
+    padding-top: 6vh;
 
   }
   #row2{
@@ -163,15 +175,17 @@ h2{
     margin-top: 3vh;
     margin-left: -1.2vh;
   }
-  #git{
-  font-size: 3em;
-  margin-top: 8vh;
-}
+
 
 #footer{
   font-size: 1.2em;
 }
 
+.fa-github{
+
+  font-size: 12vw;
+  margin-bottom: 6vh;
+}
 
 
 

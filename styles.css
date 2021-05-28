@@ -4,9 +4,21 @@
     font-family: 'Roboto', sans-serif;
     user-select: none;
     text-decoration: none;
-     scroll-behavior: smooth;
-     color: white;
-     margin: 0;
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+.lenguages{
+  font-size: 2em;
+  margin-top: 10vh;
+  margin-bottom: -10vh;
+}
+
+
+.fa-language{
+  font-size: 3em;
+  margin-top: -5vh;
+  padding-bottom: 1vh;
 
 
 }
@@ -60,19 +72,19 @@
 
 .habi{
   opacity: 0.5;
-  font-size: 2vw;
+  font-size: 2em;
   display: block;
   padding-top: 12vh;
   margin-bottom: -10vh;
-  transition: 1s;
+  transition: 3s;
 }
 .exp{
   margin: 0 auto;
   margin-top: 15vh;
   margin-bottom: -8vh;
   display: block;
-  width: 40%;
-  font-size: 1.5vw;
+  width: 60%;
+  font-size: 2em;
   padding: 3px;
   opacity: 0.6;
 }
@@ -85,7 +97,6 @@
 
 #formacion h1{
  display: block;
- margin-top: -4vh;
  margin-bottom: -2vh;
 }
 
@@ -213,40 +224,39 @@ header{
 
 }
 footer{
-    margin: 0 auto;
-    width: 100%;
-    display: block;
-    bottom: 0px;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(10deg, #903749, #2d132c);
-    border-radius: 4px;
-}
-
-.foot{
-  font-size: 26px;
+    font-size: 26px;
   opacity: 85%;
   font-weight: lighter;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background: linear-gradient(10deg, #903749, #2d132c);
+  border-radius: 4px;
 }
+
 
 
 .sobremi{
-    margin-bottom: 10vh;
+    width: 80%;
 }
 .sobremi a{
   display: block;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
-  padding: 0.5cm;
   max-width: 60%;
   font-size: 2em;
   opacity: 90%;
 }
 
+
 .sobremi h1{
   font-size: 2em;
 }
+
 
 br {
     display: inline;
@@ -254,9 +264,9 @@ br {
 }
 
 .fotoYo{
-    margin-top: 1cm;
+    margin-top: 4vh;
     max-width: 200px;
-    padding-bottom: 2cm;
+    padding-bottom: 7vh;
     border-radius: 100%;
 }
 
@@ -351,11 +361,6 @@ fieldset a{
 }
 
 
-#certificaciones a{
-    font-size: 20px;
-
-    margin: 0 auto;
-}
 
 i{
     align-items: center;
@@ -375,14 +380,11 @@ i:hover{
 
   width: 100%;
   max-width: 100%;
-  padding-bottom: 6vh;
+  padding-bottom: 40vh;
 
 }
 
-#formacion{
-  display: block;
-  padding-bottom: 1vh;
-}
+
 
 #repositorios h1{
   font-size: 3em;
@@ -394,7 +396,6 @@ i:hover{
   font-size: 2em;
   justify-content: center;
   align-items: center;
-  padding: 0.5cm;
   opacity: 100%;
   max-width: 70%;
 }
@@ -419,10 +420,6 @@ height: 30vh;
 @media screen and (max-width: 800px){
   #contacto{
     display: block;
-    margin-top: -5vh;
-    margin-bottom: 12vh;
-    padding-bottom: 1vh;
-    max-width: 100%;
   }
 
   #certificaciones h1{
@@ -431,11 +428,8 @@ height: 30vh;
 
   i{
       align-items: center;
-      display: inline-block;
-      max-width: 100%;
-      width: 80%;
-      padding: 1cm;
-      font-size: 50px;
+      padding: 3vh;
+      font-size: 2em;
       color: white;
   }
 
@@ -449,10 +443,11 @@ height: 30vh;
     align-items: center;
     padding: 0.5cm;
     max-width: 100%;
-    font-size: 1.8em;
+    font-size: 2em;
     opacity: 90%;
   }
-  h1{
+  h1
+  {
  	font-size: 5em;
   }
   
@@ -461,9 +456,6 @@ height: 30vh;
     font-size: 2em;
   }
 
-#contacto{
-height: 50vh;
-}
 
   .roll{
     display: block;
@@ -482,13 +474,24 @@ height: 50vh;
     margin: 0 auto;
     justify-content: center;
     text-align: center;
-    font-size: 7em;
+    font-size: 1em;
     padding: 3vw;
     top: 3vh;
 }
 .exp{
-   width: 80%;
+   width: 100%;
+       font-size: 2.5em;
    justify-content:center;
    text-align: center;
  }
+
+ footer{
+   font-size: 1.4em;
+ }
+
+ .fa-language{
+  font-size: 1.5em;
+}
+
+
 }

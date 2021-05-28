@@ -28,8 +28,8 @@ lenguage.onclick = () =>{
     if (ol == 0){
         info.innerText = `Tiempo Unix o Tiempo POSIX es un sistema para la descripción de instantes de tiempo: se define como la cantidad de segundos transcurridos desde la medianoche UTC del 1 de enero de 1970.`
         lenguage.innerHTML = `
-    <i class="far fa-flag"></i>
-    <h2 class="fa-flag">Inglés</h2>
+    <i class="fas fa-language"></i>
+    <h2 class="fa-language">Inglés</h2>
     `
 
         ol = 1;
@@ -40,8 +40,8 @@ lenguage.onclick = () =>{
         Unix epoch is 00: 00: 00 UTC on 1 January 1970.`
     
     lenguage.innerHTML = `
-    <i class="far fa-flag"></i>
-    <h2 class="fa-flag">Spanish</h2>
+    <i class="fas fa-language"></i>
+    <h2 class="fa-language">Spanish</h2>
     `
 
     ol = 0;
@@ -55,14 +55,14 @@ mode.onclick = () => {
     if (op == 0){
         git.innerHTML = `<a href="https://github.com/Bescri/time-stamp"><i class="fab fa-github wow animate__fadeIn" style="animation-duration: 3s; color: white;" </i></a>`
     pie.innerText = `<> with 🤍 by Bastián Escribano`
-        mode.innerHTML = `<i class="far fa-sun"></i>
-        <h2 class="fa-sun">Light</h2>`
+        mode.innerHTML = `<i class="far fa-moon"></i>
+        <h2 class="fa-moon">Light</h2>`
     op = 1;
     }
     else{
 
-        mode.innerHTML = `<i class="far fa-sun"></i>
-        <h2 class="fa-sun">Dark</h2>`
+        mode.innerHTML = `<i class="far fa-moon"></i>
+        <h2 class="fa-moon">Dark</h2>`
         git.innerHTML = `<a href="https://github.com/Bescri/time-stamp"><i class="fab fa-github wow animate__fadeIn" style="animation-duration: 3s; color: black;" </i></a>`
     pie.innerText = `<> with 🖤 by Bastián Escribano`
     op = 0;
