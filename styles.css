@@ -231,12 +231,12 @@ body{
 }
 
 .bodyLight{
-    background: linear-gradient(90deg, #faf1e6, #fdfaf6);
+    background: linear-gradient(90deg, #fdfaf6, #faf1e6);
     color: black;
 }
 
 .footerLight{
-    background: linear-gradient(10deg, #faf1e6, #fdfaf6);
+    background: linear-gradient(10deg, #faf1e6, #faf1e6);
     color: black;
 }
 
@@ -509,8 +509,12 @@ height: 30vh;
  }
 
  .fa-language{
-  font-size: 1.5em;
+  font-size: 1.8em;
 }
-
+.fa-moon{
+  font-size: 1.8em;
+  margin-top: -5vh;
+  padding-bottom: 1vh;
+}
 
 }
