@@ -25,7 +25,9 @@ body{
 
 .fa-github{
   font-size: 4vw;
-  padding-top: 5vh;
+  padding-top: 2vh;
+
+
 }
 
 #horaUnix{
@@ -39,7 +41,7 @@ body{
 }
 
 #info{
-  margin-top: -13vh;
+  margin-top: -7vh;
 }
 
 
@@ -111,6 +113,7 @@ h2{
   font-size: 1.5em;
   width: 100%;
   text-align: center;
+  opacity: 0.9;
 }
 
   #row1{
@@ -142,7 +145,7 @@ h2{
   
   #horaUnix{
     padding-top: 3vh;
-    padding-bottom: 13vh;
+    padding-bottom: 7vh;
   }
   
   
@@ -160,19 +163,20 @@ h2{
 
   #row1 h2{
     margin-left: -1.3vh;
-    padding-top: 6vh;
+    padding-top: 5vh;
 
   }
   #row2{
     width: 50%;
     opacity: 0.5;
     font-size: 0.7em;
+    margin-top: 0vh;  
     margin-right: -15vh;
 
   }
 
   #row2 h2{
-    margin-top: 3vh;
+    margin-top: 0.5vh;
     margin-left: -1.2vh;
   }
 
@@ -182,7 +186,6 @@ h2{
 }
 
 .fa-github{
-
   font-size: 12vw;
   margin-bottom: 6vh;
 }
