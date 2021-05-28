@@ -226,7 +226,7 @@ margin: 3px;
 }
 
 body{
-    background: linear-gradient(90deg, #0f0f0f, #2d132c);
+    background: linear-gradient(90deg, #000000, #020101);
     color: white;
 }
 
@@ -259,8 +259,7 @@ footer{
   width: 100%;
   color: white;
   text-align: center;
-  background: linear-gradient(10deg, #903749, #2d132c);
-  border-radius: 4px;
+    background: linear-gradient(10deg, #000000, #070407);  border-radius: 4px;
 }
 
 
