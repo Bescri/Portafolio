@@ -1,34 +1,63 @@
-body{
+*{
   margin: 0;
   text-decoration: none;
   scroll-behavior: smooth;
   user-select: none;
-  background-color: white;
+
+  font-family: sans-serif;
+}
+
+body{
+    background-color: linear-gradient(90deg, #fdfaf6, #faf1e6);
   color:black;
 }
 
+.botones{
+  padding-top: 10vh;
+  display: block;
+}
+
+i{
+    align-items: center;
+    display: line;
+    padding: 2vw;
+    font-size: 2.5em;
+    color: black;
+    transition: 0.2s;
+
+}
+
 .fa-moon{
-  padding-top: 5vh;
-  font-size: 2em;
-  padding-right: 15vw;
-  padding-bottom: 2vh;
-  animation: 2.5s;
+  font-size: 1.5em;
+  margin-top: -5vh;
+  padding-bottom: 1vh;
+}
+
+.fa-sun{
+  font-size: 1.5em;
+  margin-top: -5vh;
+  padding-bottom: 1vh;
 }
 
 .fa-language{
-  font-size: 2em;
-  padding-top: -2vh;
-  margin-bottom: -1vh;
-  padding-left: 15vw;
-  animation: 2.8s;
+  font-size: 1.5em;
+  margin-top: -5vh;
+  padding-bottom: 1vh;
 }
 
 .fa-github{
-  font-size: 4vw;
+  font-size: 5vw;
   padding-top: 2vh;
 
 
 }
+.fa-code{
+  font-size: 5vw;
+  padding-top: 2vh;
+
+
+}
+
 
 #horaUnix{
   display: flex;
@@ -36,13 +65,8 @@ body{
   align-items: center;
   text-align: center;
   font-size: 12vw;
-  font-family: sans-serif;
-  margin-top: 2vh;
 }
 
-#info{
-  margin-top: -7vh;
-}
 
 
 .darkMode{
@@ -99,7 +123,6 @@ body{
 }
 
 h2{ 
-  margin-top: -7vh;
   font-size: 2.2em;
   width: 80%;
   font-family: sans-serif;
@@ -116,30 +139,6 @@ h2{
   opacity: 0.9;
 }
 
-  #row1{
-    width: 100%;
-    opacity: 0.5;
-    display: blcok;
-    padding-top: 3vh;
-    font-size: 0.7em;
-
-  }
-
-  #row1 h2{
-    padding-top: 6vh;
-  }
-  #row2{
-    width: 100%;
-
-    opacity: 0.5;
-    font-size: 0.7em;
-
-  }
-
-  #row2 h2{
-    margin-top: 1.6vh;
-
-  }
 
 @media screen and (max-width: 800px){
   
@@ -150,35 +149,10 @@ h2{
   
   
   #info{
-    font-size: 7vw;
+    font-size: 6vw;
   }
 
-    #row1{
-    width: 50%;
-    opacity: 0.5;
-    padding-top: 3vh;
-    font-size: 0.7em;
-    margin-left: -15vh;
-  }
-
-  #row1 h2{
-    margin-left: -1.3vh;
-    padding-top: 5vh;
-
-  }
-  #row2{
-    width: 50%;
-    opacity: 0.5;
-    font-size: 0.7em;
-    margin-top: 0vh;  
-    margin-right: -15vh;
-
-  }
-
-  #row2 h2{
-    margin-top: 0.5vh;
-    margin-left: -1.2vh;
-  }
+ 
 
 
 #footer{
@@ -187,10 +161,33 @@ h2{
 
 .fa-github{
   font-size: 12vw;
-  margin-bottom: 6vh;
 }
 
+.fa-code{
+  font-size: 12vw;
+  margin-bottom: 2vh;
+}
 
+ .fa-language{
+  font-size: 1.8em;
+}
+.fa-moon{
+  font-size: 1.8em;
+  margin-top: -5vh;
+  padding-bottom: 1vh;
+}
+
+.fa-sun{
+  font-size: 1.8em;
+  margin-top: -5vh;
+  padding-bottom: 1vh;
+}
+
+ i{
+      align-items: center;
+      padding: 3vh;
+      font-size: 2em;
+  }
 
 
 

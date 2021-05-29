@@ -7,20 +7,21 @@ const all = document.getElementsByTagName("*");
 let op = 0;
 elemento24.innerText = "Junior Front End Developer </>";
 let ol = 0;
-
 moon.onclick = () => {
     
     if (ol == 0){
         moon.innerHTML = `<a href="#" id="moon" >
   <i class="far fa-sun fade-in" id="iElement" style="animation-duration: 2s;"></i></a>`
         ol = 1;
+
     }
     else{
         moon.innerHTML = `<a href="#" id="moon" >
   <i class="far fa-moon fade-in" id="iElement" style="animation-duration: 2s; color: black;"></i></a>`
         ol = 0;
+
 }
-    
+  
 
     for (var i = 0, max = all.length; i < max; i++) {
         // Do something with the element here
@@ -33,7 +34,8 @@ moon.onclick = () => {
 
 
 language.onclick = () => {
-        if (op == 0){
+
+  if (op == 0){
         elemento1.innerText = "Hola";
         elemento2.innerText = "Soy Bastián Escribano";
         elemento3.innerText = "Empático";
@@ -81,7 +83,7 @@ language.onclick = () => {
         elemento16.innerText = "University Andrés Bello";
         elemento17.innerText = "Computer and Software Engenieering";
         elemento18.innerText = "2020 - Now";
-        elemento19.innerText = "University of Santiago de Chile";
+        elemento19.innerText = "University of Santiago";
         elemento20.innerText = "Computer and Software Engenieering";
         elemento21.innerText = "Contact";
         elemento22.innerText = "<> with ♥ by Bastián Escribano";
