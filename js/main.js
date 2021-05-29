@@ -6,8 +6,22 @@ const iElement = document.querySelectorAll("#iElement")
 const all = document.getElementsByTagName("*");
 let op = 0;
 elemento24.innerText = "Junior Front End Developer </>";
+let ol = 0;
 
 moon.onclick = () => {
+    
+    if (ol == 0){
+        moon.innerHTML = `<a href="#" id="moon" >
+  <i class="far fa-sun fade-in" id="iElement" style="animation-duration: 2s;"></i></a>`
+        ol = 1;
+    }
+    else{
+        moon.innerHTML = `<a href="#" id="moon" >
+  <i class="far fa-moon fade-in" id="iElement" style="animation-duration: 2s; color: black;"></i></a>`
+        ol = 0;
+}
+    
+
     for (var i = 0, max = all.length; i < max; i++) {
         // Do something with the element here
         all[i].classList.toggle("iLight")
