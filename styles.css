@@ -93,7 +93,7 @@
 }
 .exp{
   margin: 0 auto;
-  margin-top: 15vh;
+  margin-top: 5vh;
   margin-bottom: -8vh;
   display: block;
   width: 60%;
@@ -461,10 +461,9 @@ height: 30vh;
     display: block;
     justify-content: center;
     align-items: center;
-    padding: 0.5cm;
     max-width: 100%;
     font-size: 2em;
-    opacity: 90%;
+    opacity: 1;
   }
   h1
   {
@@ -495,12 +494,11 @@ height: 30vh;
     justify-content: center;
     text-align: center;
     font-size: 1em;
-    padding: 3vw;
-    top: 3vh;
+
 }
 .exp{
    width: 100%;
-       font-size: 2.5em;
+    font-size: 2.5em;
    justify-content:center;
    text-align: center;
  }

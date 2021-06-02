@@ -5,13 +5,16 @@ const footer = document.getElementById("foot")
 const iElement = document.querySelectorAll("#iElement")
 const all = document.getElementsByTagName("*");
 let op = 0;
-elemento24.innerText = "Junior Front End Developer </>";
+elemento24.innerText = "Junior Front End Developer";
+elemento26.innerText = "</>";
 let ol = 0;
 moon.onclick = () => {
     
     if (ol == 0){
         moon.innerHTML = `<a href="#" id="moon" >
   <i class="far fa-sun fade-in" id="iElement" style="animation-duration: 2s;"></i></a>`
+
+        
         ol = 1;
 
     }
@@ -21,8 +24,6 @@ moon.onclick = () => {
         ol = 0;
 
 }
-  
-
     for (var i = 0, max = all.length; i < max; i++) {
         // Do something with the element here
         all[i].classList.toggle("iLight")
@@ -30,12 +31,14 @@ moon.onclick = () => {
     body.classList.toggle("bodyLight")
     footer.classList.toggle("footerLight")
     iElement.classList.toggle("iLight")
+
 }
 
 
 language.onclick = () => {
 
-  if (op == 0){
+
+    if (op == 0){
         elemento1.innerText = "Hola";
         elemento2.innerText = "Soy Bastián Escribano";
         elemento3.innerText = "Empático";
@@ -59,7 +62,7 @@ language.onclick = () => {
         elemento21.innerText = "Contacto";
         elemento22.innerText = "<> con ♥ por Bastián Escribano";
         elemento23.innerText = `"Si lo vas a intentar, ve hasta el final. De otra forma ni lo intentes."` 
-        elemento24.innerText = "Desarrollador de Software </> "
+        elemento24.innerText = "Desarrollador de Software"
         elemento25.innerText = "Habilidades"
         op = 1;
 
@@ -88,10 +91,12 @@ language.onclick = () => {
         elemento21.innerText = "Contact";
         elemento22.innerText = "<> with ♥ by Bastián Escribano";
         elemento23.innerText = `"If you're going to try, go all the way. Otherwise, don't even start."`
-        elemento24.innerText = "Junior Front End Developer </>";
+        elemento24.innerText = "Junior Front End Developer";
         elemento25.innerText = "Stack and Skills";
         op = 0;
 
     }
+
+
 
 }
