@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: linear-gradient(90deg, #fdfaf6, #faf1e6);
+background: linear-gradient(90deg, #fdfaf6, #faf1e6);
   color:black;
 }
 
@@ -70,8 +70,8 @@ i{
 
 
 .darkMode{
-  background-color: black;
-  color: white;
+    background: linear-gradient(90deg, #272423, #3C3836);
+    color: white;
 }
 
 .hidden{
